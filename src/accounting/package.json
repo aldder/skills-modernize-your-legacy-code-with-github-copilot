@@ -1,0 +1,38 @@
+{
+    "name": "account-management-system",
+    "version": "1.0.0",
+    "description": "Account Management System - Node.js implementation converted from COBOL",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node index.js",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": [
+        "account",
+        "management",
+        "banking",
+        "legacy-modernization"
+    ],
+    "author": "GitHub Copilot",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "devDependencies": {
+        "jest": "^30.5.1"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "collectCoverageFrom": [
+            "index.js"
+        ],
+        "testMatch": [
+            "**/__tests__/**/*.js",
+            "**/*.test.js",
+            "**/*.spec.js"
+        ]
+    }
+}
